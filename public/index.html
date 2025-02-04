@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events in Sydney</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Events in Sydney</h1>
+  <div id="events-list"></div>
+
+  <!-- Modal for email opt-in -->
+  <div id="emailModal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <p>Please enter your email to get tickets:</p>
+      <input type="email" id="emailInput" placeholder="your email" />
+      <button id="submitEmail">Submit</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
